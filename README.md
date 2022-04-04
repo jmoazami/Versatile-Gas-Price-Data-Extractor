@@ -1,5 +1,5 @@
 Versatile Gas Price Data Extractor
-by John Shaw Moazami
+by John Shaw Moazami, 
 AlphaPoint Challenge
 
 
