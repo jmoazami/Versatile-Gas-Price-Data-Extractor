@@ -51,7 +51,8 @@ gas data in units Gwei, as provided by Etherscan. Additionally, I put all person
 information, such as my API key, password for MySQL, and even database name into a config.py file,
 which is then included in a .gitignore file. This ensures that, should this code be published on GitHub,
 no personal information will be published with it as to maintain the security and privacy of
-my users.
+my users. For the purposes of running the code from the grader's point of view, however,  I have included
+my config.py file in this repo.
 
 In terms of error handling, I do not handle 404 Not Found errors as I view the messages provided already
 as a built-in form of error handling when the user mistypes the proper GET request. If I were to spend more time
