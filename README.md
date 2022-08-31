@@ -1,9 +1,7 @@
-Versatile Gas Price Data Extractor
-by John Shaw Moazami, 
-AlphaPoint Challenge
+#Versatile Gas Price Data Extractor, AlphaPoint Challenge
 
 
-PROBLEM:
+#Problem
 Given how exchanges working on the Ethereum blockchain must pay
 gas fees everytime a transaction is done on the blockchain,
 it is necessary to reduce the costs of these fees to efficently
@@ -14,7 +12,7 @@ data table using my personal API key. I then present this data to the user in a 
 way by giving average gas price over an inputted period of time (with proper error
 handling) or providing the most recent gas price in my data.
 
-GETTING STARTED:
+#Getting Started
 To run this project, you must have mySQL downloaded as well as a Python compiler. To start,
 Simply run the data.py file for 5-10 minutes to collect data from Etherscan. It is necessary
 to first enter your own API key in initialize() along with the name of the database you wish to use
@@ -24,7 +22,7 @@ Then, run server.py by typing in the terminal python3 server.py. End the server 
 CTR + C. Connect with the server with a Firefox browser using the URLS mentioned in the challenge instructions.
 Note that the port number to be used is hard-coded as 8880 in the main function of server.py.
 
-SOLUTION/DESIGN:
+#Solution/Design
 Etherscan was chosen over EthGasStation because the rate limit of 1 req/5sec was
 easily made accessible in the instructions given. I also personally have dealt with
 Etherscan more in making my own financial transcations on the Ethereum blochain and 
@@ -54,6 +52,7 @@ no personal information will be published with it as to maintain the security an
 my users. For the purposes of running the code from the grader's point of view, however,  I have included
 my config.py file in this repo so that my API key can be used for testing.
 
+#Future Work
 In terms of error handling, I do not handle 404 Not Found errors as I view the messages provided already
 as a built-in form of error handling when the user mistypes the proper GET request. If I were to spend more time
 on this project, I would research how to handle GET requests that are not the expected ones I handle in my code so as
